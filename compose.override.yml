@@ -1,0 +1,7 @@
+services:
+  php:
+    environment:
+      PHP_XDEBUG_MODE: debug
+      PHP_IDE_CONFIG: serverName=workflow
+      PHP_XDEBUG_START_WITH_REQUEST: "yes"
+      PHP_XDEBUG_CLIENT_HOST: host.docker.internal # Docker 18.03+ Mac/Win

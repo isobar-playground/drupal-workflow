@@ -1,0 +1,13 @@
+command:
+  sql:
+    dump:
+      options:
+        result-file: '../../mysql/init.sql'
+        structure-tables-list:
+          - 'cache'
+          - 'cache_*'
+          - 'history'
+          - 'search_*'
+          - 'sessions'
+          - 'watchdog'
+        extra-dump: '--no-tablespaces'

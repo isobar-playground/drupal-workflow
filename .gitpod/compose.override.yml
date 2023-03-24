@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  php:
+    environment:
+      PROJECT_BASE_URL: "80-${HOSTNAME}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+      DRUSH_OPTIONS_URI: "https://80-${HOSTNAME}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+  nginx:
+    labels:
+      - "traefik.http.routers.${PROJECT_NAME}_nginx.rule=Host(`80-${HOSTNAME}.${GITPOD_WORKSPACE_CLUSTER_HOST}`)"

@@ -1,0 +1,18 @@
+uuid: 70926f9a-a863-4bc3-b2c3-a1fd7887c9bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - media
+    - system
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'delete own files'
+  - 'view media'
