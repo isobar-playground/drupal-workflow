@@ -1,0 +1,15 @@
+image:
+  file: .gitpod/Dockerfile
+
+tasks:
+  - name: drupal-workflow
+    init: bash .gitpod/init.sh
+    command: bash .gitpod/command.sh
+
+ports:
+  - port: 80
+    visibility: public
+    onOpen: open-browser
+  - port: 8080
+    visibility: private
+    onOpen: ignore
