@@ -32,6 +32,7 @@
         "drupal/paragraphs": "^1.13",
         "drupal/pathauto": "^1.9",
         "drupal/redirect": "^1.7",
+        "drupal/simple_oauth": "^5.2",
         "drupal/smtp": "^1.0",
         "drupal/token": "^1.10",
         "drupal/webform": "^6.1",

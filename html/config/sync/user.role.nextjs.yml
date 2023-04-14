@@ -1,0 +1,9 @@
+uuid: c268582a-8900-4039-82b5-585fe6afeb40
+langcode: en
+status: true
+dependencies: {  }
+id: nextjs
+label: NextJS
+weight: 2
+is_admin: null
+permissions: {  }

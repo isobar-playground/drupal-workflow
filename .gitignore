@@ -123,3 +123,6 @@ html/.env
 
 # docker-compose overides
 /docker-compose.override.yml
+
+# Simple OAuth keys
+/html/keys
