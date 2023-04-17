@@ -13,12 +13,12 @@ type: content_moderation
 type_settings:
   states:
     draft:
-      label: Draft
+      label: Staging
       weight: 0
       published: false
       default_revision: false
     published:
-      label: Published
+      label: Production
       weight: 1
       published: true
       default_revision: true
