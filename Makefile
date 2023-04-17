@@ -120,7 +120,7 @@ compile:
 .PHONY: copy-database
 copy-database:
 	@echo "Creating database dump."
-	@ssh ${SSH_HOST} "cd ${SSH_PROJECT_ROOT}/html && drush cr && drush sql:dump --gzip"
+	@ssh ${SSH_HOST} "cd ${SSH_PROJECT_ROOT} && make drush cr && make drush 'sql:dump --gzip'"
 	@scp ${SSH_HOST}:${SSH_PROJECT_ROOT}/mysql/dump.sql.gz mysql/init.sql.gz
 	@echo "Done."
 
