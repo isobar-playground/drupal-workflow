@@ -49,6 +49,7 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  workflow_action: 0
   workflows: 0
   pathauto: 1
   content_translation: 10

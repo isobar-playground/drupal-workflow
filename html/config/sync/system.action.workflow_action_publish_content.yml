@@ -1,0 +1,16 @@
+uuid: a83e1dd9-b68d-49e5-b768-6b633213affd
+langcode: en
+status: true
+dependencies:
+  module:
+    - workflow_action
+  enforced:
+    module:
+      - node
+_core:
+  default_config_hash: Ie8_YvAuFdfNYQEGlpWAa-gdYO5VZhW1dkmJR-UoyHc
+id: workflow_action_publish_content
+label: 'Publish content to the Production environment'
+type: node
+plugin: workflow_action_publish_content
+configuration: {  }
